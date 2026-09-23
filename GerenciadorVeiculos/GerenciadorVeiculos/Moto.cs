@@ -10,7 +10,7 @@ namespace GerenciadorVeiculos
     {
         public int Cilindradas { get; set; }
 
-        protected Moto(string modelo, decimal precoBase, int cilindradas)
+        public Moto(string modelo, decimal precoBase, int cilindradas)
             : base(modelo, precoBase)
         {
             Cilindradas = cilindradas;
